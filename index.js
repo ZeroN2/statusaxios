@@ -7,6 +7,7 @@ const timezone = require('date-and-time/plugin/timezone');
 const keepAlive = require('./server');
 
 
+keepAlive();
 const client = new Client({
 	checkUpdate: false,
 	syncStatus: false,
