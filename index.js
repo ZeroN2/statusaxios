@@ -28,10 +28,10 @@ client.on('ready', () => {
 			.setAssetsLargeImage('https://cdn.discordapp.com/attachments/1255985247191961641/1291986658048348161/nakroth-nakroth-db.gif?ex=670217d7&is=6700c657&hm=d241d678171fbefc82d26e489cd392b0f4d7455910deaac8bc579f47a52f9d96&')
 			.setAssetsLargeText(`Ping : ${Math.round(client.ws.ping)} ms`)
 			//.setAssetsLargeText('สถานะล็อคอินโปร : Working ✅')
-			.setAssetsSmallImage('https://cdn.discordapp.com/attachments/1255985247191961641/1291986658048348161/nakroth-nakroth-db.gif?ex=670217d7&is=6700c657&hm=d241d678171fbefc82d26e489cd392b0f4d7455910deaac8bc579f47a52f9d96&')
-		//.setAssetsSmallText('Bot')
+			.setAssetsSmallImage('https://cdn.discordapp.com/attachments/1255985247191961641/1292001446614667274/tumblr_53610ab2dc14042ef1c7b5da85901713_209b383e_540.webp?ex=6702259d&is=6700d41d&hm=2fd717cc39a466fdd6b687dee4f9ddb650c5bd659517d65197a879d65025f9b6&')
+		.setAssetsSmallText('Bot')
 		//.setAssetsSmallText('Bot1')
-		//.addButton('__  [ - Mod ViP Free - ]  __', 'https://t.me/zxvxzv_cracked_mod_vip')
+		.addButton('__  [ - Join DC / Free Rank - ]  __', 'https://discord.gg/QtYT8eV3z4')
 		//.addButton('__  [ - JOIN FOR TESTER - ] __', 'https://www.zxvc.xyz/discord');
 		client.user.setActivity(r);
 
@@ -47,14 +47,14 @@ client.on('ready', () => {
 		}
 
 
-		/*
+		
 		client.settings.setCustomStatus({
 		  status: null, // 'online' | 'idle' | 'dnd' | 'invisible' | null
 		  text: generateRandomString(10) + " | " + generateRandomString(10) + " | " + generateRandomString(10), // String | null
 		  emoji: null, // UnicodeEmoji | DiscordEmoji | null
 		  expires: null, // Date.now() + 1 * 3600 * 1000 <= 1h to ms
 		});
-		*/
+		
 
 		client.user.setHypeSquad('HOUSE_BRAVERY');
 		client.user.setHypeSquad('HOUSE_BRILLIANCE');
