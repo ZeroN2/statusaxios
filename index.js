@@ -27,10 +27,10 @@ client.on('ready', () => {
 			.setAssetsLargeText(`Ping : ${Math.round(client.ws.ping)} ms`)
 			//.setAssetsLargeText('สถานะล็อคอินโปร : Working ✅')
 			.setAssetsSmallImage('https://cdn.discordapp.com/attachments/1255985247191961641/1292001446614667274/tumblr_53610ab2dc14042ef1c7b5da85901713_209b383e_540.webp?ex=6702259d&is=6700d41d&hm=2fd717cc39a466fdd6b687dee4f9ddb650c5bd659517d65197a879d65025f9b6&')
-			.setAssetsSmallText('Bot')
-			.setAssetsSmallText('Bot1')
-			.addButton('__  [ - Join DC / Free Rank - ]  __', 'https://discord.gg/QtYT8eV3z4')
-			.addButton('__  [ - No Link - ] __', 'https://www.google.com');
+			//.setAssetsSmallText('Bot')
+			//.setAssetsSmallText('Bot1')
+			//.addButton('__  [ - Join DC / Free Rank - ]  __', 'https://discord.gg/QtYT8eV3z4')
+			//.addButton('__  [ - No Link - ] __', 'https://www.google.com');
 		client.user.setActivity(r);
 
 
