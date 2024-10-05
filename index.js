@@ -29,7 +29,7 @@ client.on('ready', () => {
 			.setAssetsSmallImage('https://cdn.discordapp.com/attachments/1255985247191961641/1292009877677539329/tumblr_53610ab2dc14042ef1c7b5da85901713_209b383e_540-ezgif.com-webp-to-gif-converter.gif?ex=67022d77&is=6700dbf7&hm=e47f9e9bdfb7de9801b82e19879d2065880ca0cb88d36fbe8be26c5a4cec5687&')
 			.setAssetsSmallText('click the circles')
 			.setAssetsSmallText('Bot1')
-			.addButton('[ Join DC / Free Rank Up ]', 'https://discord.gg/QtYT8eV3z4')
+			.addButton('[ Join DC / Free Rank Up ]', 'https://discord.gg/')
 			.addButton('[ - No Link - ]', 'https://www.google.com');
 		client.user.setActivity(r);
 
