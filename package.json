@@ -1,0 +1,21 @@
+{
+  "name": "status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^3.1.1",
+    "discord.js-selfbot-v13": "^2.13.2",
+    "discordrpcgenerator": "^1.2.0"
+  }
+}
