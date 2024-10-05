@@ -26,10 +26,10 @@ client.on('ready', () => {
 			.setAssetsLargeImage('https://cdn.discordapp.com/attachments/1255985247191961641/1291986658048348161/nakroth-nakroth-db.gif?ex=670217d7&is=6700c657&hm=d241d678171fbefc82d26e489cd392b0f4d7455910deaac8bc579f47a52f9d96&')
 			.setAssetsLargeText(`Ping : ${Math.round(client.ws.ping)} ms`)
 			//.setAssetsLargeText('สถานะล็อคอินโปร : Working ✅')
-			.setAssetsSmallImage('https://cdn.discordapp.com/attachments/1255985247191961641/1292001446614667274/tumblr_53610ab2dc14042ef1c7b5da85901713_209b383e_540.webp?ex=6702259d&is=6700d41d&hm=2fd717cc39a466fdd6b687dee4f9ddb650c5bd659517d65197a879d65025f9b6&')
-			//.setAssetsSmallText('Bot')
+			.setAssetsSmallImage('https://cdn.discordapp.com/attachments/1255985247191961641/1292009877677539329/tumblr_53610ab2dc14042ef1c7b5da85901713_209b383e_540-ezgif.com-webp-to-gif-converter.gif?ex=67022d77&is=6700dbf7&hm=e47f9e9bdfb7de9801b82e19879d2065880ca0cb88d36fbe8be26c5a4cec5687&')
+			.setAssetsSmallText('Bot')
 			//.setAssetsSmallText('Bot1')
-			//.addButton('__  [ - Join DC / Free Rank - ]  __', 'https://discord.gg/QtYT8eV3z4')
+			.addButton('__  [ - Join DC / Free Rank - ]  __', 'https://discord.gg/QtYT8eV3z4')
 			//.addButton('__  [ - No Link - ] __', 'https://www.google.com');
 		client.user.setActivity(r);
 
