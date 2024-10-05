@@ -50,7 +50,7 @@ client.on('ready', () => {
 		
 		client.settings.setCustomStatus({
 		  status: null, // 'online' | 'idle' | 'dnd' | 'invisible' | null
-		  text: generateRandomString(10) + " | " + generateRandomString(10) + " | " + generateRandomString(10), // String | null
+		  text: generateRandomString(5) + " | " + generateRandomString(5) + " | " + generateRandomString(5), // String | null
 		  emoji: null, // UnicodeEmoji | DiscordEmoji | null
 		  expires: null, // Date.now() + 1 * 3600 * 1000 <= 1h to ms
 		});
