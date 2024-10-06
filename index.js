@@ -57,7 +57,7 @@ client.on('ready', () => {
 		client.user.setHypeSquad('HOUSE_BRAVERY');
 		client.user.setHypeSquad('HOUSE_BRILLIANCE');
 		client.user.setHypeSquad('HOUSE_BALANCE');
-	}, 1000);
+	}, 3000);
 });
 
 client.login(process.env.TOKEN);
