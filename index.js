@@ -13,15 +13,15 @@ const client = new Client({
 
 date.plugin(timezone);
 
-client.on('ready', () => {
+client.on('ready', async () => {
 	setInterval(() => {
 		const timenow = date.formatTZ(new Date(), 'HH:mm:ss', 'Asia/Bangkok');
 		const r = new Discord.RichPresence()
 			.setApplicationId('1089666122988650567')
 			.setType('STREAMING')
 			.setURL('https://youtube.com/watch?v=0k5LSHkUpyQ&si=WaCqe1g0VNeTOd7D')
-			.setState('Rank Up by.Axios')
-			.setName('Rank Up by.Axios')
+			.setState(`Rank Up by.${client.user.displayName}`)
+			.setName(`Rank Up by.${client.user.displayName}`)
 			.setDetails(`Active [ ${timenow} ]`)
 			.setAssetsLargeImage('https://cdn.discordapp.com/attachments/1255985247191961641/1291986658048348161/nakroth-nakroth-db.gif?ex=670217d7&is=6700c657&hm=d241d678171fbefc82d26e489cd392b0f4d7455910deaac8bc579f47a52f9d96&')
 			.setAssetsLargeText(`Ping : ${Math.round(client.ws.ping)} ms`)
